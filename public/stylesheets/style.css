@@ -1,0 +1,50 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+a {
+  color: #00B7FF;
+}
+
+p{
+  color: blue;
+}
+
+.top{
+  padding: 17px;
+}
+.request{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+select{
+  padding: 7px;
+  background-color: #DCDCDC;
+  /* border: none; */
+  /* border-radius: 7px; */
+  margin: 2px;
+  border: none;
+}
+
+input{
+  margin: 2px;
+  background-color: #DCDCDC;
+  border: none;
+  width: 100%;
+}
+
+button{
+  margin: 2px;
+  padding: 10px;
+  background-color: lightblue;
+  border: none;
+}
+
+.response{
+  border-style: solid;
+  border-width: 0.5px;
+  background-color: #DCDCDC;
+}

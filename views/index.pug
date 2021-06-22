@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div.top
+    form(method='POST' action="/users")
+      div.request
+        select(name="requestType")
+          option(value="get") GET 
+          option(value="post") POST 
+        input(type="text", name="url")  
+        button(type="submit") SEND
+      div.response
+        pre API RESPONSE
