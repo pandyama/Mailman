@@ -3,6 +3,11 @@
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 } */
 
+body{
+  background-color: #DCDCDC;
+  font-family: quicksand;
+}
+
 a {
   color: #00B7FF;
 }
@@ -12,7 +17,7 @@ p{
 }
 
 .top{
-  padding: 17px;
+  padding: 8px;
 }
 .request{
   display: flex;
@@ -20,31 +25,59 @@ p{
   justify-content: space-between;
 }
 
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 4px;
+}
+
 select{
   padding: 7px;
-  background-color: #DCDCDC;
-  /* border: none; */
-  /* border-radius: 7px; */
+  background-color: white;
   margin: 2px;
   border: none;
+  font-family: quicksand;
+  font-size: 20px;
 }
 
 input{
   margin: 2px;
-  background-color: #DCDCDC;
+  background-color: white;
   border: none;
   width: 100%;
+  font-family: quicksand;
+  font-size: 20px;
+
 }
 
 button{
   margin: 2px;
   padding: 10px;
-  background-color: lightblue;
+  background-color: white;
   border: none;
+  font-family: quicksand;
+  font-size: 20px;
+
 }
 
 .response{
+  background-color: white;
+  margin-top: -3px;
   border-style: solid;
-  border-width: 0.5px;
-  background-color: #DCDCDC;
+  border-width: 0.1pt;
+}
+
+.status{
+  color: green;
+}
+
+.preDiv{
+  /* margin: 20px; */
+  padding: 2px;
+}
+pre{
+  font-family: quicksand;
+  font-size: 17px;
 }
