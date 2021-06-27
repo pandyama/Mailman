@@ -1,8 +1,7 @@
 extends layout
-
 block content
-  //- h1= title
-  //- p Welcome to #{title}
+  div.topbar
+    h1= title
   div.top
     form(method='POST' action="/data")
       div.request
@@ -14,9 +13,9 @@ block content
       div.stats
         span status:
         span.status #{status}
-        span response: 
+        span response:
         span.status #{time} ms
-        span size: 
+        span size:
         span.status #{length} B
       div.response
         div.preDiv

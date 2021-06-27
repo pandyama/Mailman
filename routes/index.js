@@ -35,7 +35,7 @@ router.post("/data", function (req, res, next) {
       console.log(`Difference - ${new Date().getTime() - started} ms`);
       var timeTaken = new Date().getTime() - started;
       var size = JSON.stringify(res2.data).length + JSON.stringify(res2.headers).length;
-      res.render("index", { response: res2.data, status: "OK", time: timeTaken, length: size});
+      res.render("index", { response: res2.data, status: "OK", time: timeTaken, length: size, title:"Mailman"});
     })
     .catch((err) => {
       console.log(err);
