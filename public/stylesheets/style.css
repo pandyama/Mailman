@@ -72,7 +72,8 @@ button {
 }
 
 .response {
-  background-color: white;
+  background-color: rgb(54, 54, 54);
+  color: white;
   border-style: none;
   border-radius: 5px;
   padding: 2%;
